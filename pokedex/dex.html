@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokedex</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
+</head>
+
+<body id="dex-page">
+    <div >
+        <div id="search-box">
+            <input type="text" id="pokemonName" placeholder="Enter Pokemon name">
+            <button id="submit" onclick="fetchData()">Search</button>
+            <a href="home.html"><button id="back">Back</button></a>
+          </div> <br>
+          <div id="details" style="visibility:hidden">
+            <div id="container">
+                <div class="name-health">
+                    <p id="pokemon_name"></p>
+                    <p id="pokemon_hp"></p>
+                    <img src="" alt="ico" id="type-icon">
+                </div>
+                <img src="" id="pokemon_image">
+            </div>
+            <div id="abilities"></div>
+            <div id="info"></div>
+            <div id="types"></div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

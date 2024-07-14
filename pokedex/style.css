@@ -1,0 +1,162 @@
+*{
+    font-family: 'Poppins',arial;
+}
+
+#welcome-page{
+    background-color: rgba(163, 163, 163, 0.623);
+    display: block;
+   
+}
+#back{
+    background-color: rgba(0, 0, 0, 0.623);
+    color: aliceblue;
+    border:none;
+    border-radius: 0.5em;
+}
+
+#next-page-btn{
+    background-color: #ff8a8a;
+    font-size: 20px;
+    border-radius: 1em;
+    font-weight: bolder;
+    border: none;
+    position:absolute;
+    right:5%;
+    cursor: pointer;
+}
+#dex-page{ /*background pokedex page*/
+    background-image:url('bg.png');
+    background-color: rgb(160, 160, 160);
+
+ }
+
+
+#search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    margin:5px;
+    font-size: 20px;
+    border-radius: 1em;
+    border:none;
+}
+#pokemonName{
+    font-size: 20px;
+    border-radius: 1em;
+    text-align: center;
+}
+#pokemon_name{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+#pokemon_hp{
+    font-size: 20px;
+    margin: 10px;
+    margin-left:-50px
+}
+
+#details{
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   border-radius: 1em;
+   background-color: #ffe459;
+   padding: 1em;
+   box-shadow: 0 0 10px 10px rgba(0,0,0,0.3);
+  
+   
+
+}
+
+#container {
+   width: 100%;
+   height: 100%;
+
+}
+
+.name-health {
+   display: flex;
+   justify-content: space-between;
+}
+#type-icon{
+    margin-left: -200px;
+    width: 50px;
+    height: 50px;
+
+}
+
+#pokemon_image {
+   width: 100%;
+   min-height: 100px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+#pokemonSprite{
+    max-width: 100%; 
+    height: auto;
+    margin: 20px;
+ }
+
+
+ .grass{
+    background-color: rgb(101, 255, 183)
+    
+ }
+
+ .fire{
+    background-color: rgb(255, 101, 101) 
+ }
+
+ .poison{
+    background-color: rgb(255, 101, 255);
+ }
+
+ .rock{
+    background-color: rgb(161, 161, 158);
+ }
+
+ .electric{
+    background-color: rgb(255, 255, 142);
+ }
+
+ .wind{
+    background-color: rgb(190, 250, 250);
+ }
+
+ .water{
+    background-color: rgb(101, 255, 255);
+ }
+
+ .ghost{
+    background-color: rgb(61, 61, 61);
+ }
+
+ .bug{
+    background-color: rgb(255, 101, 255);
+ }
+
+ .steel{
+    background-color: rgb(161, 161, 161);
+ }
+ 
+.fighting{
+    background-color: rgb(179, 100, 100);
+}
+.dragon{
+    background-color: rgb(232, 255, 101);
+}
+.normal{
+    background-color: rgb(179, 179, 179);
+}
+.ice{
+    background-color: rgb(101, 255, 255);
+}
+.psyco{
+    background-color: rgb(255, 112, 231);
+}
